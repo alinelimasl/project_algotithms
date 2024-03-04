@@ -12,4 +12,3 @@ def test_encrypt_message():
         encrypt_message("hello world!", "invalid_key")
 
     assert encrypt_message("hello world", 2) == "dlrow oll_eh"
-    
